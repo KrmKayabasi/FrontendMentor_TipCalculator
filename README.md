@@ -2,12 +2,14 @@
 
 It's a solution of Frontend Mentor Project(Tip Calculator)
 
-<img width="830" alt="1" src="https://user-images.githubusercontent.com/111309350/224750314-91baee6c-b2d1-49b9-9de4-b49e1008d7ea.png">
+<img width="797" alt="1" src="https://user-images.githubusercontent.com/111309350/224751107-2ee3a4be-80d3-4273-aeb8-1d74a1922665.png">
 
-<img width="830" alt="2" src="https://user-images.githubusercontent.com/111309350/224750323-32a5bbe8-ea47-4b7c-b847-783a79adefaa.png">
+<img width="804" alt="2" src="https://user-images.githubusercontent.com/111309350/224751114-ff5fb5f6-4094-457b-aed7-67e370e8ec21.png">
 
 You can try the challenge yourself -->
 
 [FrontendMentor_Tip Calculator](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
 
 Note: This Project doesn't support mobile design.
+
+

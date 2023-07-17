@@ -8,6 +8,6 @@ It's a solution of Frontend Mentor Project(Tip Calculator)
 
 You can try the challenge yourself --> [FrontendMentor_Tip Calculator](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
 
-Live Demo is available --> [Demo](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX)
+Live Demo is available --> [Demo](https://nimble-wisp-0745e8.netlify.app/)
 
 Note: This Project doesn't support mobile design.

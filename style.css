@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+}
+
+body{
+    background-color: hsl(185, 41%, 84%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    gap: 40px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+}
+
+label{
+    color: hsl(184, 14%, 56%);
+    
+}
+
+.info-container input{
+    padding: 10px;
+    font-family: 'Space Mono', monospace;
+    background-position: 15px 17px;
+    background-repeat: no-repeat;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+    background-color: hsla(185, 41%, 84%,.3);
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.info-container input:focus{
+    outline: 1px solid #33c2ac;
+}
+
+#bill{
+    background-image: url(images/icon-dollar.svg);
+    margin-bottom: 35px;
+}
+
+#person{
+    background-image: url(images/icon-person.svg);
+}
+
+.percentage{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+    gap: 10px; 
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.percentage button{
+    background-color: hsl(183, 100%, 15%);
+    color:white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 30px;
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.percentage button:hover{
+    background-color: #a1e8df;
+    color: hsl(183, 100%, 15%);
+}
+
+.percentage input{
+    width: 100px !important;
+    margin: 0px !important;
+}
+
+.percentage input::placeholder{
+    text-align: center;
+}
+
+.percentage input:focus::placeholder{
+    color:transparent;
+}
+
+.percentage button:focus{
+    background-color: #33c2ac;
+    color: hsl(183, 100%, 15%);
+}
+
+.result-container{
+    background-color: hsl(183, 100%, 15%);
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    height: 100%;
+    position: relative;
+    justify-content: space-between;
+}
+
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.first{
+color: white;
+font-weight: 400 !important;
+font-size: 12px;
+
+}
+
+.second{
+color: hsl(186, 14%, 43%);
+font-weight: 400 !important;
+font-size: 10px;
+}
+
+.amount{
+    color: #33c2ac;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+#reset{
+    background-color:#33c2ac ;
+    color: hsl(183, 100%, 15%);
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    transition: 0.2s;
+    width: 100%;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+#reset:hover{
+    background-color: #a1e8df;
+}
+
+.part{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px !important;
+}
+
+.part p{
+    color: rgb(216, 65, 65);
+    font-size: 13px !important;
+}
+
+.hidden{
+    display: none;
+}
+
+.redborder{
+    outline: 1px solid rgb(216, 65, 65) !important;
+    
+}

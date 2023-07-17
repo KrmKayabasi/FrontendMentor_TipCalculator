@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic" rel="stylesheet" />
+  <title>Tip Calculator App</title>
+
+
+</head>
+<body>
+  <img src="images/logo.svg" alt="">
+
+  <div class="wrapper">
+    <div class="info-container">
+      <form action="">
+        <div class="part">
+          <label for="bill">Bill</label>
+          <p id="error_bill" class="hidden">Can't be zero</p>
+        </div>
+        
+        <input type="text" class="" placeholder="0" name="" id="bill"> <br>
+
+
+        <div class="part">
+          <label for="custom">Select Tip %</label>
+          <p id="error_custom" class="hidden">Can't be zero</p>
+        </div>
+        
+
+        <div class="percentage">
+          <button class="per" type="button" onclick="">%5</button>
+          <button class="per" type="button" onclick="">%10</button>
+          <button class="per" type="button" onclick="">%15</button>
+          <button class="per" type="button" onclick="">%25</button>
+          <button class="per" type="button" onclick="">%50</button>
+          <input type="text" id="custom" placeholder="Custom">
+        </div>
+
+        <div class="part">
+          <label for="person">Number of People</label> 
+          <p id="error_person" class="hidden">Can't be zero</p>
+        </div>
+
+        
+        <input type="text" placeholder="0" name="" id="person"> 
+        
+      </form>
+    </div>
+
+    <div class="result-container">
+      <div class="price">
+        <div class="person">
+          <div class="indicator">
+            <p  class="first">Tip Amount</p>
+            <p class="second">/ person</p>
+          </div>
+          <div id="perperson" class="amount">0.00$</div>
+        </div>
+  
+  
+        <div class="total">
+          <div class="indicator">
+            <p class="first">Total</p>
+          </div>
+          <div id="toptotal" class="amount">0.00$</div>
+        </div>
+      </div>
+
+
+      <button id="reset" type="button">RESET</button>
+    </div>
+    
+  </div>
+
+  
+  
+<script src="script.js"></script>
+</body>
+</html>
